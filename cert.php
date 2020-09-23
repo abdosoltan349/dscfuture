@@ -8,7 +8,7 @@ $specialization = $_GET['spec'];
 $date = $_GET['date'];
 $time = $_GET['time'];
 $data = $_GET['image'];
-echo $dsc;
+echo $time;
 /*
 	header('content-type:image/jpeg');
 	$fontbold="fonts/bold.TTF";
