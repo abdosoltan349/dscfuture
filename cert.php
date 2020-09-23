@@ -64,7 +64,7 @@ echo $time;
 	//End DSC
 	$file=time();
 	//imagepng($image);
-/*
+
    header ("Content-Disposition: attachment; filename=".$file.".jpg");
 	
   readfile(imagejpeg($image));
@@ -73,6 +73,7 @@ echo $time;
 	//echo $img["path"];
 	imagedestroy($image);
 	imagedestroy($speaker);
+	/*
 	header("Location: index.php");*/
 }
 else{
