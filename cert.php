@@ -8,7 +8,8 @@ $specialization = $_GET['spec'];
 $date = $_GET['date'];
 $time = $_GET['time'];
 $data = $_GET['image'];
-echo "Test"
+echo $dsc;
+/*
 	header('content-type:image/jpeg');
 	$fontbold="fonts/bold.TTF";
 	$fontregular="fonts/regular.TTF";
@@ -71,7 +72,7 @@ echo "Test"
 	//echo $img["path"];
 	imagedestroy($image);
 	imagedestroy($speaker);
-	header("Location: index.php");
+	header("Location: index.php");*/
 }
 else{
 	echo "return to home page";
