@@ -9,10 +9,11 @@ $date = $_GET['date'];
 $time = $_GET['time'];
 $data = $_GET['image'];
 echo $time;
-/*
+
 	header('content-type:image/jpeg');
-	$fontbold="fonts/bold.TTF";
-	$fontregular="fonts/regular.TTF";
+	$fontbold="fonts/bold.ttf";
+	$fontregular="fonts/regular.ttf";
+	/*
 	$image=imagecreatefromjpeg("temp1.jpg");
 	$speaker = imagecreatefrompng($data);
 	imagecopy($image, $speaker, 226, 690, 0, 0, 934, 930);
