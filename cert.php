@@ -13,7 +13,7 @@ echo $time;
 	header('content-type:image/jpeg');
 	$fontbold="fonts/bold.ttf";
 	$fontregular="fonts/regular.ttf";
-	/*
+	
 	$image=imagecreatefromjpeg("temp1.jpg");
 	$speaker = imagecreatefrompng($data);
 	imagecopy($image, $speaker, 226, 690, 0, 0, 934, 930);
@@ -64,7 +64,7 @@ echo $time;
 	//End DSC
 	$file=time();
 	//imagepng($image);
-
+/*
    header ("Content-Disposition: attachment; filename=".$file.".jpg");
 	
   readfile(imagejpeg($image));
