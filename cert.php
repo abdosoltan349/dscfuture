@@ -8,11 +8,11 @@ $specialization = $_GET['spec'];
 $date = $_GET['date'];
 $time = $_GET['time'];
 $data = $_GET['image'];
-
+echo "Test"
 	header('content-type:image/jpeg');
 	$fontbold=dirname(__FILE__) ."/fonts/bold.ttf";
 	$fontregular=dirname(__FILE__) ."/fonts/regular.ttf";
-	$image=imagecreatefromjpeg("templates/temp1.jpg");
+	$image=imagecreatefromjpeg("temp1.jpg");
 	$speaker = imagecreatefrompng($data);
 	imagecopy($image, $speaker, 226, 690, 0, 0, 934, 930);
 	$titlecolor=imagecolorallocate($image,245,180,0);
