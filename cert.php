@@ -10,8 +10,8 @@ $time = $_GET['time'];
 $data = $_GET['image'];
 
 	header('content-type:image/jpeg');
-	$fontbold="C:/xampp/htdocs/crop-image/fonts/bold.ttf";
-	$fontregular="C:/xampp/htdocs/crop-image/fonts/regular.ttf";
+	$fontbold="fonts/bold.ttf";
+	$fontregular="fonts/regular.ttf";
 	$image=imagecreatefromjpeg("templates/temp1.jpg");
 	$speaker = imagecreatefrompng($data);
 	imagecopy($image, $speaker, 226, 690, 0, 0, 934, 930);
