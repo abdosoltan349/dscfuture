@@ -11,8 +11,8 @@ $data = $_GET['image'];
 echo $time;
 
 	header('content-type:image/jpeg');
-	$fontbold="fonts/bold.ttf";
-	$fontregular="fonts/regular.ttf";
+	$fontbold="https://dscfuture.herokuapp.com/fonts/bold.ttf";
+	$fontregular="https://dscfuture.herokuapp.com/fonts/regular.ttf";
 	
 	$image=imagecreatefromjpeg("temp1.jpg");
 	$speaker = imagecreatefrompng($data);

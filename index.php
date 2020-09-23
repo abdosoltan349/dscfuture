@@ -26,7 +26,7 @@
                     <div class="col-lg-2 col-md-1 col-xs-0"></div>
                     <div class="col-lg-4 col-md-5 col-xs-12">
                         <label class="labels" for="fname" >Instructor Name*</label>
-                        <input class="inputs" id="fname" name="name" type="text" placeholder="eg: Ahmed Ashraf Z" onfocusout="validatefname()">
+                        <input class="inputs" id="fname" name="name" type="text" placeholder="eg: Ahmed Ashraf" onfocusout="validatefname()">
                         <span id="errfname" class="text-danger font-weight-bold"></span>
                     </div>
                     <div class="col-lg-4 col-md-5 col-xs-12">
